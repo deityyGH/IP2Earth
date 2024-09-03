@@ -17,10 +17,10 @@ You can install the required package using pip:
 ## Usage
 1. ### Load the file:
     To use the program, load your `.pcap` or `.json` file.
-    `python main.py -h | --help`
-    `python main.py -p <pcap_filepath> [-o <output_kml_filepath]`
-    `python main.py -d <data_filepath> [-o <output_kml_filepath]`
-    `python main.py -l <locations_filepath> [-o <output_kml_filepath]`
+    - `python main.py -h | --help`
+    - `python main.py -p <pcap_filepath> [-o <output_kml_filepath]`
+    - `python main.py -d <data_filepath> [-o <output_kml_filepath]`
+    - `python main.py -l <locations_filepath> [-o <output_kml_filepath]`
 
 - Use either `-p`, `-d`, `-l`
 - Optional path for the output .kml file. If not provided, a default filename will be generated. 
@@ -39,9 +39,9 @@ You can install the required package using pip:
     5. Upload the file
 
 ## Example
-`python main.py -p capture.pcap -o output.kml`
-`python main.py -d ip_data.json -o output.kml`
-`python main.py -l locations.json -o output.kml`
+- `python main.py -p capture.pcap -o output.kml`
+- `python main.py -d ip_data.json -o output.kml`
+- `python main.py -l locations.json -o output.kml`
 
 After running the above command, a KML file will be created in the current directory, which you can then upload to Google Earth to visualize the locations of the IP addresses.
 
