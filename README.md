@@ -11,7 +11,7 @@ This Python program extracts IP addresses from '.pcap' or '.pcapng' file formats
 - [dpkt](https://pypi.org/project/dpkt/)
 - [colorama](https://pypi.org/project/colorama/)
 
-You can install the required package using pip:
+You can install the required package using pip:\
 `pip install dpkt colorama`
 
 ## Usage
@@ -20,10 +20,10 @@ You can install the required package using pip:
    - `cd IP2Earth`
      
 2. ### Start the program:
-    - You can view the available options and usage instructions with:
-       - `python main.py --help`
-    - To process a .pcap or .pcapng file and generate a KML file, use:
-       - `python main.py -p capture.pcap`
+    - You can view the available options and usage instructions with:\
+    `python main.py --help`
+    - To process a .pcap or .pcapng file and generate a KML file, use:\
+    `python main.py -p capture.pcap`
    (Note: use `python3` if using linux.)
 
 3. ### Process the file:
@@ -40,14 +40,14 @@ You can install the required package using pip:
     5. Upload the file
 
 ## Example Commands
-- Process a `.pcap` file:
-   - `python main.py -p capture.pcap`
-- Use JSON file with IP data:
-   - `python main.py -d data.json`
-- Use JSON file with location data:
-   - `python main.py -l data.json`
-- Specify more arguments:
-   - `python main.py -p capture.pcapng --protocol tcp --port 443,80 --use-generator```
+- Process a `.pcap` file:\
+`python main.py -p capture.pcap`
+- Use JSON file with IP data:\
+`python main.py -d data.json`
+- Use JSON file with location data:\
+`python main.py -l data.json`
+- Specify more arguments:\
+`python main.py -p capture.pcapng --protocol tcp --port 443,80 --use-generator`
 
 
 After running the above command, a KML file will be created in the current directory, which you can then upload to Google Earth to visualize the locations of the IP addresses.
