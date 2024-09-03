@@ -1,0 +1,10 @@
+# Ignore __pycache__ directories and cached files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+*.json
+*.kml
+*.pcap
+*.pcapng
