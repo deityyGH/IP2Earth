@@ -22,7 +22,6 @@ DEFAULT_DATA_FILENAME:str = 'new_file'
 DEFAULT_LOCATIONS_FILENAME:str = 'new_file'
 DEFAULT_KML_FILENAME:str = 'new_file'
 
-SAVE_ALL = False
 
 
 # Default Input Folders for Arguments '-p', '-d', or '-l'
